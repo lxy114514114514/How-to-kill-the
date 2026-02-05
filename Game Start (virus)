@@ -1,0 +1,117 @@
+#include<iostream>
+#include<bits/stdc++.h>
+#include<bitset>
+#include<windows.h>
+#include<time.h>
+using namespace std;
+int main()
+{
+	int a=114514;
+	int yes;
+	int no;
+	int one=1;
+	int two=2;
+	int b;
+	int c=50;
+	cout<<"���������룺";
+	cin>>b;
+	if(a==b)
+	{
+		cout<<"��ȷ";
+		Sleep(120);
+			system("color F2");
+			char gun;
+			char d=7;
+			cout<<"      ���ڴ򿪡����⡷\n";
+			Sleep(110);
+			
+			if(gun==gun)
+			{
+				cout<<"       ���ڼ���10%\n";
+				Sleep(70);
+				cout<<"       ���ڼ���20%\n";
+				Sleep(80);
+				cout<<"       ���ڼ���37%\n";
+				Sleep(90);
+				cout<<"       ���ڼ���52%\n";
+				Sleep(120);
+				cout<<"       ���ڼ���86%\n";
+				Sleep(45);
+				cout<<"       ���ڼ���98%\n";
+				cout<<"       ���ڽ���\n";	
+				cout<<d;
+				Sleep(70);
+				cout<<d;
+				Sleep(70);	
+				cout<<d;
+				Sleep(70);
+				if(2>=1)
+				{
+					cout<<"\n";
+					system("color C4");
+					cout<<"//////////////////////////////////////Warning/////////////////////////////////////////\n";
+					cout<<"------------------------------FBL WATCHING YOU !-------------------------------------\n";
+					cout<<"//////////////////////////////////////Warning/////////////////////////////////////////\n";
+					cout<<"------------------------------FBL WATCHING YOU !-------------------------------------\n";
+					cout<<"//////////////////////////////////////Warning/////////////////////////////////////////\n";
+					cout<<"------------------------------FBL WATCHING YOU !-------------------------------------\n";					
+					Sleep(1000);
+					cout<<"Ŀ�꣺����FBL��׷��\n";
+					Sleep(3000);
+					system("color F0");
+					srand((unsigned)time(NULL));
+					cout<<"������ʹ�õ���:";
+					srand((unsigned)time(NULL));
+									gun= rand() % 4 + 0;
+										if(gun==2)
+										{
+											Sleep(100);
+											cout<<"M4A1";
+										}
+										if(gun==4)
+											{
+												Sleep(100);
+												cout<<"AK-47";
+											}
+										if(gun==0)
+										{
+												Sleep(100);
+												cout<<"MP5";
+										}
+										if(gun==1)
+										{
+												
+												Sleep(100);
+												cout<<"95-1";
+										}
+										if(gun==3)
+										{
+														
+												Sleep(100);
+												cout<<"P90";
+										}
+				cout<<"  ʣ���ӵ���"<<c<<"��";
+				}
+				cout<<"��ѡ�񿪳�orͶ��\n";
+				cout<<"������ 1 or 2\n ";
+				if(cin>>two)
+				{
+					cout<<"�㵹����������ӵ��У���Ϸ����\n";
+					Sleep(1000);
+				}
+				if(cin>>one)
+				{	
+				cout<<"��ѡ��ǰ����վ one or �ɻ��� two\n ";
+				cout<<"������ 1 or 2 \n";
+				if(cin>>one)
+								{
+								cout<<"��ѡ������ 1 or ���� 2\n";
+								cout<<"������ 1 or 2 \n";
+								}
+				}
+				
+			
+				}
+			}
+	return 0;
+}
